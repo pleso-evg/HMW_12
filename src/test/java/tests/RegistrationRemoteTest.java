@@ -73,7 +73,7 @@ public class RegistrationRemoteTest {
       $("#stateCity-wrapper").$(byText("NCR")).click();
       $("#city").click();
       $("#stateCity-wrapper").$(byText("Delhi")).click();
-      $("#submit").click();
+      $x("//button[@id='submit']").click();
     });
     step("Verify result", () -> {
       $(".modal-header #example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
