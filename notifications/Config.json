@@ -3,14 +3,15 @@
     "project": "Some project name",
     "environment": "qa.guru",
     "comment": "comment here @Kh_timurr",
-    "reportLink": "https://jenkins.autotests.cloud/job/dash_34/3/allure/",
+    "reportLink": "",
     "language": "en",
     "allureFolder": "allure-report",
     "enableChart": true
   },
-  "telegram": {
+ "telegram": {
     "token": "7208414750:AAEQNZHQn97LJhmEhlKec7vOQPLBMOpbDRQ",
     "chat": "-1002543277696",
-    "replyTo": ""
+    "replyTo": "",
+    "templatePath": "/templates/telegram.ftl"
   }
 }
